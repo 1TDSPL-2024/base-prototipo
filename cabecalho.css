@@ -13,8 +13,10 @@ h1{
     color: #fff;
     float: left;
     position: absolute;
-    top: 40%;
+    top: -10%;
     left: 10%;
+    font-size: 280%;
+    font-family: Arial, sans-serif;
 }
 
 nav{
@@ -30,5 +32,7 @@ li{
 img{
     width: 60px;
 }
+
+
 
 

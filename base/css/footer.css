@@ -31,6 +31,15 @@
     }
 
 }
+.nome-link{
+    width: 90px;
+    font-size: 26px;
+    margin: 0;
+    font-weight: 500;
+    color: white;
+    font-family: sans-serif;
+
+}
 /* Nav - navegação rodapé */
 .navegacao{
     width: 100%;
@@ -48,31 +57,13 @@
 
 /*Li item lista navegação rodapé */
 .item-lista{
-
+    background-color: #1E2836;
+    border: 5px solid white;
+    display: flex;
+    max-width: 100%;
+    width: 245px;
+    margin: 14px;
+    align-items: center;
+    justify-content: center;
 /*  */
 }
-
-
-
-
-
-
-
-
-/* BUTTON HOVER & CLICK EFFECT */
-
-.hover {
-    transition: 100ms;
-  }
-  
-  .hover:hover {
-    transition: 100ms;
-    background: #2c466b;
-  }
-  
-  .hover:active {
-    transition: 100ms;
-    background: #2c466b;
-    font-weight: 200;
-    letter-spacing: 0.05em;
-  }

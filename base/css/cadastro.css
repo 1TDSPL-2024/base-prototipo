@@ -23,7 +23,8 @@ body {
   gap: 2rem;
 }
 
-h1 {
+.cadastro h1 {
+  padding: 3rem;
   font-size: 3rem;
   text-align: center;
 }

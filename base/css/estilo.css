@@ -11,6 +11,9 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* CABECALHO */
@@ -44,6 +47,7 @@ body {
 /* CONTENT LAYOUT */
 
 .content {
+  flex: 1;
   display: flex;
   gap: 1rem;
 }
@@ -96,11 +100,9 @@ body {
   background-color: #404854;
   display: flex;
   flex-direction: column;
-  padding: 4rem 1rem;
-  gap: 2rem;
+  padding: 6rem 1rem;
 
   h2 {
-    padding: 2rem;
     font-size: 3rem;
     text-align: center;
   }
@@ -110,6 +112,13 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+  }
+
+  .signup-form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .inputs-wrapper {
@@ -122,7 +131,7 @@ body {
       gap: 1rem;
 
       .input {
-        min-height: 4rem;
+        min-height: 5rem;
         padding: 0rem 0.3rem;
         border: 0.3rem solid #cecaca;
         border-radius: 0.5rem;
@@ -143,12 +152,13 @@ body {
   }
 
   .button-wrapper {
-    min-height: 4rem;
+    min-height: 5rem;
     align-self: center;
     display: flex;
     justify-content: center;
 
     .submit-button {
+      cursor: pointer;
       background-color: #1e2836;
       border: 5px solid #ffffff;
       border-radius: 0.5rem;
@@ -157,5 +167,58 @@ body {
       padding: 0.5rem 3rem;
       color: white;
     }
+  }
+}
+
+/* RODAPE */
+
+#rodape {
+  border-top: 2px solid #ffffff;
+  background-color: #1e2836;
+  padding-top: 2rem;
+  padding-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  .navegacao {
+    width: 100%;
+  }
+
+  .lista-rodape {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+    .item-lista {
+      border: 5px solid white;
+      border-radius: 0.5rem;
+      padding: 0.2rem 3rem 0.2rem 1rem;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+
+        img {
+          height: 2rem;
+        }
+
+        .nome-link {
+          font-size: 1.5rem;
+          font-weight: 500;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  .copy {
+    text-transform: uppercase;
+    font-size: 1.2rem;
   }
 }

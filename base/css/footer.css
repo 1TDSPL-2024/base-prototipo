@@ -15,17 +15,17 @@
     background-color: #1E2836;
     position: absolute;
     background-position: center;
+    justify-content: space-around;
     
     
     a {
-        display: inline-block;
         text-decoration: none;
         color: #000;
     
         /*Nesting elements*/
         img{
-            width: 100%;
-            max-width: 80px;
+            width: 50px;
+            margin-right: 25px;
         }
     
     }
@@ -38,7 +38,6 @@
     font-weight: 500;
     color: white;
     font-family: sans-serif;
-
 }
 /* Nav - navegação rodapé */
 .navegacao{
@@ -62,8 +61,7 @@
     display: flex;
     max-width: 100%;
     width: 245px;
-    margin: 14px;
+    margin: 40px;
     align-items: center;
     justify-content: center;
-/*  */
 }

@@ -1,0 +1,22 @@
+#linha {
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+#container {
+  background-color: #1e2836;
+  width: 682px;
+  padding: 15px;
+  padding-top: 5px;
+}
+#container img{
+position: absolute;
+left: 660px;
+}
+h1 {
+  color: #ffffff;
+  display: inline;
+}
+p {
+  color: #ffffff;
+  text-align: justify;
+}

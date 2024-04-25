@@ -8,10 +8,6 @@
   padding: 15px;
   padding-top: 5px;
 }
-#container img{
-position: absolute;
-left: 660px;
-}
 h1 {
   color: #ffffff;
   display: inline;
@@ -19,4 +15,8 @@ h1 {
 p {
   color: #ffffff;
   text-align: justify;
+}
+.help-header {
+  display: flex;
+  justify-content: space-between;
 }

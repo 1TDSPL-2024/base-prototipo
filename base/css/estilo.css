@@ -41,3 +41,39 @@ body {
     }
   }
 }
+
+/* HELP */
+
+.text-content__wrapper {
+  padding: 1rem;
+  background-color: #1e2836;
+
+  h2 {
+    color: #ffffff;
+    font-size: 3rem;
+  }
+
+  .content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    p {
+      color: #ffffff;
+      text-align: justify;
+    }
+
+    a {
+      align-self: flex-end;
+
+      img {
+        height: 3rem;
+      }
+    }
+  }
+}
+
+.linha {
+  width: 100%;
+  border-bottom: 1px solid #ffffff;
+}
